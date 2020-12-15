@@ -1,0 +1,5 @@
+function candies(children, candy) {
+    let ratio = candy/children;
+    let result =  Math.floor(ratio) * children;
+    return result;
+}
